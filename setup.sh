@@ -10,3 +10,6 @@ brew bundle --file="$HOME/dotfiles/Brewfile"
 
 # stow
 stow --restow --dir="$HOME/dotfiles" --target="$HOME" git zsh
+
+# Karabiner-Elements
+stow --restow --dir="$HOME/dotfiles" --target="$HOME/.config/karabiner" karabiner-ansi
