@@ -1,5 +1,6 @@
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
-if [ -f ~/.zprofile.local ]; then
-    source ~/.zprofile.local
-fi
+export PYENV_ROOT="$HOME/.pyenv"
+[[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
+
+[ -f ~/.zprofile.local ] && source ~/.zprofile.local
