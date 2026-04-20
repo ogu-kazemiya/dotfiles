@@ -5,7 +5,7 @@
             "complex_modifications": {
                 "rules": [
                     {
-                        "description": "Swap caps lock and control",
+                        "description": "caps_lock behavior",
                         "manipulators": [
                             {
                                 "from": {
@@ -61,7 +61,7 @@
                         ]
                     },
                     {
-                        "description": "control combination",
+                        "description": "control combinations",
                         "manipulators": [
                             {
                                 "from": {

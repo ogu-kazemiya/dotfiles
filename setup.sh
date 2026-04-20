@@ -13,4 +13,4 @@ stow --restow --dir="$HOME/dotfiles" --target="$HOME" git zsh
 
 # Karabiner-Elements
 mkdir -p "$HOME/.config/karabiner"
-stow --restow --dir="$HOME/dotfiles" --target="$HOME/.config/karabiner" karabiner-ansi
+stow --restow --dir="$HOME/dotfiles" --target="$HOME/.config/karabiner" karabiner
